@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Assign-Message-1" version="SHA-512:f8c17549b5c5ab65ef1ac24aa45be917e0dacf18d9335f12f767ab0421b75251ddb8f0db7d209b54b4bf0ce8204c1a020de2bd368e7295c06767b57a76017b1b"/>
+        <VersionInfo resourceName="ConnectionThrottler" version="SHA-512:de1e949905a898187d9c1d0870fc76601f939849dae5a795807b9dcf828cd2d174639a25c2d0cc1ccffe8c1c1fad6495679f292660aa0a1ad983ea1d0c918fd7"/>
+        <VersionInfo resourceName="Message-Logging-1" version="SHA-512:2933240f1670734ad9920603f0174b0167e4c1a60b06f33ed67315ae0d50ed537f25d6861b82036d64d134415140b1ecb03d7645f8ec3477c390df8de48efebb"/>
+        <VersionInfo resourceName="OAuth-v20-1" version="SHA-512:fa8c863d1020557023efd476fbe54562bcf5629e02cc0ae62021f7314b3d012c012d20800851441c7e5cc624a0b51d3634ce416a3c5068cfe0327d38289a99c4"/>
+        <VersionInfo resourceName="Quota-1" version="SHA-512:86533ac234505ce9526d0a299e0b60d88213d262efcc3b93f99b577cb42720cdb678534e236991828de8ed34a5c27fc775e0ea82ec5d1219950b0d8090966dbd"/>
+        <VersionInfo resourceName="Regular-Expression-Protection-1" version="SHA-512:242455872f6f5134278cb730d626f85dc2b34ffaabf2344915a3cdaa32840d5edf6c1c036e14fd2275d0da5e3c08598a07f91b1a297027d9075624c9b2879f5c"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:03a3feee8ce87c22ecc77681acc6fa5672d3cc2be86fb9e84d4b3e334e21c5999be741adbd81833c2480ffeb647daae8a07afd92c3e462656d3066d05829e1b7"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="openapi://association.json" version="SHA-512:560d41ab5a6f5777a4df9478a89a73106076c5df3d5e3c81c4d32af030b00f45b4f85ad7579192fb88ffe09da9ac2e72bf9251f0cfa69f94ded01682cb0e4354"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:88a76d093c91d6db94a3ee47ce644a32385b974b89c7a09906806fe67c74ec2277d16d99d34b3eff71d1a32260c04f86d4bcfa03654a1762cea661999804d03d"/>
+    </TargetEndpoints>
+</Manifest>

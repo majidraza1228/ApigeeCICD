@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="OrdersAPI">
+    <Basepaths>/v1/ordersapi</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1581706601094</CreatedAt>
+    <CreatedBy>chilltraderz@gmail.com</CreatedBy>
+    <Description>Chill Traders Orders API</Description>
+    <DisplayName>OrdersAPI</DisplayName>
+    <LastModifiedAt>1581708693640</LastModifiedAt>
+    <LastModifiedBy>chilltraderz@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:2273a7675d0be7238293b61e8c1610e1e9f5603fde03ae6d350a4ac98af1687b53192a1b88cfb097d476fc484bf9af3d7786d4992aaefb3532452f969ba8052a</ManifestVersion>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>openapi://association.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

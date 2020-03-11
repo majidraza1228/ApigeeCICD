@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MessageLogging async="false" continueOnError="false" enabled="true" name="Message-Logging-1">
+    <DisplayName>Chill Trader Logs</DisplayName>
+    <Syslog>
+        <Message>[3f509b58 tag="{organization.name}.{apiproxy.name}.{environment.name}.{request.header.content-type.values}.{request.header.x-api-key.values}"]</Message>
+        <Host>IP</Host>
+        <Port>556</Port>
+        <FormatMessage>true</FormatMessage>
+    </Syslog>
+</MessageLogging>

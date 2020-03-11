@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="14" name="CustomerAPI">
+    <Basepaths>/customer-api</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1580537715308</CreatedAt>
+    <CreatedBy>chilltraderz@gmail.com</CreatedBy>
+    <Description>Demonstration API for a fictitious online retailor.
+</Description>
+    <DisplayName>CustomerAPI</DisplayName>
+    <LastModifiedAt>1582427090736</LastModifiedAt>
+    <LastModifiedBy>chilltraderz@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:8c03e0825294ad521508937dba0bff6cf8d43e947af7dc0138b06830c39cd292c6e25bb05096dbe09105fd77443143ed56e4f7fdae40b00857a0b3f5889f5ada</ManifestVersion>
+    <Policies>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>ConnectionThrottler</Policy>
+        <Policy>Message-Logging-1</Policy>
+        <Policy>OAuth-v20-1</Policy>
+        <Policy>Quota-1</Policy>
+        <Policy>Regular-Expression-Protection-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>openapi://association.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+  <PreFlow name="PreFlow">
+    <Request/>
+    <Response/>
+  </PreFlow>
+  <Flows>
+    <Flow name="getOrders">
+      <Description>Returns the orders list and basic data from the backend system</Description>
+      <Request/>
+      <Response/>
+      <Condition>(proxy.pathsuffix MatchesPath "/orders") and (request.verb = "GET")</Condition>
+    </Flow>
+    <Flow name="createOrder">
+      <Description>Creates a Order in the ABC store with form data</Description>
+      <Request/>
+      <Response/>
+      <Condition>(proxy.pathsuffix MatchesPath "/orders") and (request.verb = "POST")</Condition>
+    </Flow>
+    <Flow name="getOrderWithID">
+      <Description>Returns a order's data from the backend system based on order id</Description>
+      <Request/>
+      <Response/>
+      <Condition>(proxy.pathsuffix MatchesPath "/orders/*") and (request.verb = "GET")</Condition>
+    </Flow>
+    <Flow name="updateOrder">
+      <Description>Updates a Order in the ABC store with the json payload</Description>
+      <Request/>
+      <Response/>
+      <Condition>(proxy.pathsuffix MatchesPath "/orders/*") and (request.verb = "PUT")</Condition>
+    </Flow>
+    <Flow name="deleteOrder">
+      <Description>Deletes a Order based on order id</Description>
+      <Request/>
+      <Response/>
+      <Condition>(proxy.pathsuffix MatchesPath "/orders/*") and (request.verb = "DELETE")</Condition>
+    </Flow>
+  </Flows>
+  <PostFlow name="PostFlow">
+    <Request/>
+    <Response/>
+  </PostFlow>
+  <HTTPProxyConnection>
+    <BasePath>/v1/ordersapi</BasePath>
+    <VirtualHost>secure</VirtualHost>
+  </HTTPProxyConnection>
+  <RouteRule name="default">
+    <TargetEndpoint>default</TargetEndpoint>
+  </RouteRule>
+</ProxyEndpoint>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="OAuth2">
+    <Basepaths>/oauth2/accesstoken</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1578288188258</CreatedAt>
+    <CreatedBy>chilltraderz@gmail.com</CreatedBy>
+    <Description>Chill Trader Authentication</Description>
+    <DisplayName>OAuth2</DisplayName>
+    <LastModifiedAt>1578288188258</LastModifiedAt>
+    <LastModifiedBy>chilltraderz@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:a6ff2f8d209102cb7a8b366a4b8664141a8870763c5c9c8ac56e4f1c4a6f8157653c4c0148d9517aca0a85117d4f1de4b6d511597d7f2453e2d8d1f331f734f9</ManifestVersion>
+    <Policies>
+        <Policy>GenerateAccessToken</Policy>
+        <Policy>Message-Logging-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>
