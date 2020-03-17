@@ -4,36 +4,21 @@
     "test": {
       "targetServers": [
         {
-          "name": "HTTPBin",
-          "host": "httpbin.org",
+          "name": "ChillTrader-CICD-Target-Server",
+          "host": "majidraza-2a5e1a03-eval-test.apigee.net",
           "isEnabled": true,
           "port": 80
         }
       ],
-      "virtualHosts": [
-        {
-          "name": "example",
-          "hostAliases": [
-            "example.com"
-          ],
-          "isEnabled": true,
-          "port": 80
-        }
-      ],
-      "references": [
-        {
-          "name": "sampleReference",
-          "refers": "freetrial",
-          "resourceType": "KeyStore"
-        }
-      ],
+      "virtualHosts": [],
+      "references": [],
       "caches": [
         {
-          "name": "echocache",
-          "description": "echo cache",
+          "name": "ChillTradersCache",
+          "description": "Cache for high performance",
           "expirySettings": {
             "timeoutInSec": {
-              "value": "300"
+              "value": "6000"
             },
             "valuesNull": false
           }
@@ -69,15 +54,10 @@
     }
   },
   "orgConfig": {
-    "specs": [
-      {
-        "name": "Petstore-v2",
-        "file": "./specs/petstore-v2.yaml"
-      }
-    ],
+    "specs": [],
     "apiProducts": [
       {
-        "name": "EchoProduct",
+        "name": "ChillTraders-CICD",
         "apiResources": [
           "/",
           "/**"
@@ -86,17 +66,17 @@
         "attributes": [
           {
             "name": "description",
-            "value": "Echo Product"
+            "value": "Testing ChillTrader CICD"
           }
         ],
-        "description": "Echo Product",
-        "displayName": "Echo Product",
+        "description": "CICD",
+        "displayName": "ChillTrader",
         "environments": [
           "test",
           "prod"
         ],
         "proxies": [
-          "HelloWorld"
+          "Customer"
         ],
         "quota": "10000",
         "quotaInterval": "1",
